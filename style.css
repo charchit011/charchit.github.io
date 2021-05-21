@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto',sans-serif ;
+}
+    
+li, a, button {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #24252a;
+}
+
+.logo {
+
+    margin-right: auto;
+    color: seashell;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.nav_links {
+    list-style: none;
+}
+ .nav_links li {
+     display: inline-flex;
+     padding: 0px 20px;
+ }
+
+ .nav_links li a {
+     transition: all 0.3 ease 0s;
+     color: #edf0f1;
+ }
+
+ .nav_links li a:hover {
+     color:aquamarine;
+ }
+
+ button {
+     /* margin-left: 20px; */
+     color: seashell;
+     padding: 9px 25px;
+     background-color: rgba(0, 136, 169, 1);
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all 0.3 ease 0s;
+ }
+
+ button:hover {
+     background-color: rgba(0, 136, 169, 0.8);
+ }
+
+
+.main1{
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.main2{
+    padding-top: 250px;
+    padding-left: 50px;
+}
+
+.t1{
+    padding-left: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: "Montserrat";
+}
+
+.main3{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 90px;
+
+}
+.t2{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 20px;
+    font-size: 20px;
+ 
+}
+.search-city{
+    border-radius: 30px;
+    font-size: 30px;
+}
+.but1{
+    margin-left: 20px;
+}
+.img1{
+    margin-left: 200px;
+    margin-top:100px;
+    margin-right:190px;
+    width: 500px;
+}
+
+.page2{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.page2 h1{
+    padding-bottom: 30px;
+}
+.page2 p{
+    padding-bottom: 20px;
+}
+.page2 button{
+    padding-left: 30px;
+}
+.hh{
+    display:flex;
+}
+.page21{
+    background-color: khaki;
+    padding-top: 20px;
+    margin-left: 230px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right:50px ;
+    border-radius: 20px;
+}
+.page22{
+    margin-left: 10 0px;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 20px;
+}
+.page22 h4{
+    padding-bottom: 20px;
+}
+
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* float: left; */
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #05247a;
+  }
+  
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #05198f;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
+  .wrapper{
+      margin-left: 600px;
+      margin-top: 100px;
+  }
